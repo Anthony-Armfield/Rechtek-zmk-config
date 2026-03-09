@@ -32,8 +32,8 @@
 		compatible = "zmk,battery-voltage-divider";
 		label = "BATTERY";
 		io-channels = <&adc 7>;
-		output-ohms = <2000000>;
-		full-ohms = <(2000000 + 820000)>;
+		output-ohms = <100000>;
+		full-ohms = <(100000 + 100000)>;
 	};
 
 	ext-power {
